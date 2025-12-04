@@ -2,7 +2,15 @@
 ### *Modelagem Dimensional, SQL Analítico e Dashboard Power BI*
 
 ---
+Dados do Projeto
 
+Os arquivos de dados utilizados neste projeto estão organizados na pasta [`/data`](./data):
+
+- [`DIM_CLIENTE`](./data/dim_cliente.csv) – cadastro e segmentação de clientes  
+- [`DIM_PRODUTO`](./data/dim_produto.csv) – catálogo técnico de rodas  
+- [`FAT_VENDA`](./data/fat_venda.csv) – cabeçalho das vendas  
+- [`FAT_ITEM_VENDA`](./data/fat_item_venda.csv) – itens de cada venda
+---
 ## 1. Objetivo do Projeto
 
 Este projeto simula uma operação real de uma empresa industrial que fabrica e comercializa **rodas industriais** (tração, apoio, carga e roletes).  
