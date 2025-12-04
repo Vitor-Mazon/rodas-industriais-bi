@@ -1,0 +1,12 @@
+id_roda,tipo_roda,modelo,diametro,largura,marca,categoria
+100,Tração,EGV,230,70,Still,Transpaleteira
+101,Tração,ETV,353,135,Toyota,Transpaleteira
+102,Carga,ETV,80,120,Toyota,Transpaleteira
+103,Apoio,ETV,100,50,Toyota,Transpaleteira
+104,Tração,FMX,343,135,Still,Empilhadeira
+105,Apoio,JHC,100,80,Linde,Paleteira
+106,Carga,ECX,150,50,Heli,Empilhadeira
+107,Tração,EP,343,135,Heli,Empilhadeira
+108,Carga,JJ2,80,50,Junghenreich,Paleteira
+109,Carga,ECX,80,75,Heli,Empilhadeira
+110,Apoio,EGV,75,40,Still,Empilhadeira
