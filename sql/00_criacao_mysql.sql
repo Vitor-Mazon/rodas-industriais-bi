@@ -321,6 +321,8 @@ INSERT INTO fat_item_venda (id_item, id_venda, id_roda, qtde, valor_unit) VALUES
 (141,100,102,1,830),
 (142,100,107,1,165);
 
+-----------------------------------------------------------------
+-- Ajustes para criar clientes com compras em apenas 1 mês
 -- Guevara (7) -> tudo em março
 UPDATE fat_venda
 SET data_venda = '2025-03-10'
@@ -331,12 +333,17 @@ UPDATE fat_venda
 SET data_venda = '2025-08-12'
 WHERE id_cliente = 8 AND status = 'FECHADA';
 
+-- Vizualização dos clientes com maior fidelidade (mais meses com compras)
 SELECT
   c.nome,
   COUNT(DISTINCT DATE_FORMAT(v.data_venda, '%Y-%m')) AS meses_com_compra,
   COUNT(*) AS qtd_vendas_fechadas
 FROM fat_venda v
-JOIN dim_cliente c ON c.id_cliente = v.id_cliente
+JOIN dim_cliente c 
+  ON c.id_cliente = v.id_cliente
 WHERE v.status = 'FECHADA'
-GROUP BY c.nome
-ORDER BY meses_com_compra, qtd_vendas_fechadas DESC;
+GROUP BY 
+  c.nome
+ORDER BY 
+  meses_com_compra, 
+  qtd_vendas_fechadas DESC;
