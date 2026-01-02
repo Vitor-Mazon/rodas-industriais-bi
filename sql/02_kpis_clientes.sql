@@ -1,5 +1,6 @@
 --- 02_kpis_clientes.sql
 --- KPIs relacionados aos clientes utilizando a view vw_fat_venda_valor + dim_cliente
+
 -------------------------------------------------------------------------------
 --- 1) Faturamento total por cliente no período
 -------------------------------------------------------------------------------.
