@@ -1,4 +1,3 @@
--- Active: 1765228275279@@localhost@3306@rodas_dw
 -- 01_base_modelo_estrela.sql
 -- View básica para facilitar análises: consolida valor_total por venda
 
@@ -25,4 +24,5 @@ GROUP BY
 -- Consulta de teste: visualizar o resultado da view
 SELECT * FROM vw_fat_venda_valor
 ORDER BY
-    data_venda, id_venda;
+    data_venda, 
+    id_venda;
