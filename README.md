@@ -110,7 +110,7 @@ Scripts disponíveis na pasta [`/sql`](/sql):
 
 ## Dashboard Power BI
 
-O dashboard foi estruturado em **4 páginas** (imagens na página [`Dashboard`](/Dashboard):
+O dashboard foi estruturado em ( **[`4 páginas`]**(/Dashboard)):
 
 1. [**Visão Geral**](/Dashboard/01-VisãoGeral.png) — desempenho global do negócio  
 2. [**Clientes**](/Dashboard/02-Clientes.png) — comportamento, recorrência e concentração  
